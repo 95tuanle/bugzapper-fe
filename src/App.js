@@ -1,13 +1,13 @@
 import './App.css';
 import React from "react";
+import Authentication from "./components/Authentication";
 
-function App() {
-
+const App = () => {
     return (
         <>
-            <h1>BugZapper - Frontend</h1>
+            <Authentication/>
         </>
     );
-}
+};
 
 export default App;
