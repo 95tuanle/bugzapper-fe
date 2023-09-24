@@ -3,13 +3,11 @@ import React from "react";
 
 function App() {
 
-  return (
-    <>
-      <corbado-passkey-associate
-        project-id={process.env.CORBADO_PROJECT_ID}
-        association-token="<assocation token>"/>
-    </>
-  );
+    return (
+        <>
+            <h1>BugZapper - Frontend</h1>
+        </>
+    );
 }
 
 export default App;
